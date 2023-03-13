@@ -1,0 +1,130 @@
+.emb_container{
+    display:flex;
+    width: 100%;
+    position: relative;
+    right:0%;        }
+.heading{
+font-size: 36px;
+font-weight: 400;
+ background-image: linear-gradient(to left, #372175, #b393d3);
+color: transparent;
+ background-clip: text;
+-webkit-background-clip: text;
+padding-left: 50px;
+}
+#addDataDiv{
+    border:1px solid red;
+    width: 100px;
+    display: inline-block;
+    padding-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#addDataDiv:hover{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px red;
+    transition: 0.6s;
+    color:#220c61;
+    font-size: 22px;
+}
+input{
+    width: 150px;
+    height: 24px;
+    margin-left: 20px;
+    border: transparent;
+    
+    border-bottom: 2px solid red;
+}
+
+input[type=text]:focus {
+    border: none;
+    border-bottom: 3px solid rgb(3, 0, 173);
+  }
+.brline{
+    height: 2px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    background-color: rgb(219, 104, 104);
+}
+.small_heading{
+font-size: 21px;
+font-weight: 400;
+margin-top: 20px;
+ background-image: linear-gradient(to left, #452c8a, #b393d3);
+color: transparent;
+ background-clip: text;
+-webkit-background-clip: text;
+padding-left: 40px;
+}
+.row{
+    display: flex;
+}
+.tagforpage{
+    position: relative;
+    right: -50%;
+}
+/* table */
+#display_existing_data {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 80%;
+margin: auto;
+margin-top: 40px;
+}
+
+#display_existing_data td, #display_existing_data th {
+border: 1px solid #cc0000;
+padding: 8px;
+}
+
+#custodisplay_existing_datamers tr:nth-child(even){background-color: #d5c7e2;}
+
+#display_existing_data tr:hover {background-color: #bda2dd;}
+
+#display_existing_data th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #e4e1e7;
+color: #6344b8;
+}
+.margin_top_16{
+    margin-top: 16px;
+}
+#show_data_buttons{
+    border:1px solid red;
+    width: max-content;
+    
+    border-radius: 20px;
+    margin-left: 48px;
+    margin-top: 24px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+#show_data_buttons:hover{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px red;
+    transition: 0.6s;
+    color:#220c61;
+    font-size: 18px;
+}
+#hide_data_buttons{
+    border:1px solid red;
+    width: max-content;
+    display: none;
+    border-radius: 20px;
+    margin-left: 48px;
+    margin-top: 24px;
+    padding: 12px;
+    cursor: pointer;
+    color: #6344b8;
+}
+#hide_data_buttons:hover{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px red;
+    transition: 0.6s;
+    color:#220c61;
+    font-size: 18px;
+}

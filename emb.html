@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded</title>
+    <link rel="stylesheet" href="./emd.css">
+</head>
+<body>
+    <div class="emb_container">
+        <div class="heading"><h2>Embedded</h2></div>
+         <div class="tagforpage"></div>
+
+    </div>
+    
+    <div class="brline"></div>
+    <div class="brline"></div>
+    <div class="small_heading"><h3>Update write to csv page</h3>
+        <input id="Parameter" type="text" placeholder="Enter Parameter" >
+        <input id="Reading" type="text" placeholder="Enter Reading" >
+        <div id="addDataDiv" onclick="addDataToCsv()">Add Data</div>    
+    </div>
+    <div class="margin_top_16"></div>
+    <div class="brline"></div>
+    
+ 
+    <div class="small_heading">Readings from previous data</div>
+    <div onclick="show_button()" id="show_data_buttons">Show more data</div>
+    <div onclick="hide_button()" id="hide_data_buttons"> Hide data</div>
+    <table id="display_existing_data"></table>
+    
+  
+<script src="./emd.js"></script>
+</body>
+</html>
